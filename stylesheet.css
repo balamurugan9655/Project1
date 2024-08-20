@@ -1,0 +1,57 @@
+#dl1 {
+    border: 1px solid black;
+    width: 40%;
+    padding: 20px;
+    float: left;
+    background-color: lightyellow;
+}
+dl h2 {
+    color: blue;
+    text-align: center;
+}
+#dl2 {
+    border: 1px solid black;
+    width: 40%;
+    padding: 15px;
+    float: right;
+    padding-right: 50px;
+    background-color: lightyellow;
+}
+dl dt {
+    background-color: yellow;
+    width: 15%;
+    border-radius: 20px;
+}
+#dl2 dd {
+    color:slateblue;
+}
+#div1 {
+    padding-left: 20px;
+}
+#div2 {
+    padding-right: 20px;
+}
+#sub2,#sub5,#sub8 {
+    width: 35px;
+}
+#sub1,#sub6 {
+    width: 50px;
+}
+#sub3,#sub4 {
+    width: 70px;
+}
+h1 {
+    background-color: yellow;
+    width: 40%;
+    color: red;
+    border-style: groove;
+    border-radius: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+.exp1,.exp2,.exp3,.exp4 {
+    color:blueviolet;
+}
+body {
+    background: linear-gradient( lightyellow , yellow);
+}
