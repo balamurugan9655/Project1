@@ -1,0 +1,479 @@
+.navbar {
+    /* border: 2px solid black; */
+    /* padding: 0;
+    margin: 0; */
+    background-color: black;
+    border-radius: 20px;
+    position: relative;
+    /* bottom: 10px; */
+    padding-left: 30px;
+    padding-right:10px;
+    width: 98%;
+    right: 1%;
+    left: 1;
+    margin: 0;
+    height: 50px;
+    color: white;
+}
+.navbar img {
+    width: 100px;
+    margin: 0px;
+    /* border: 2px solid blue; */
+    /* border-radius: 250%; */
+    height: 100px;
+    /* background-blend-mode: multiply; */
+    position: relative;
+    top: 0px;
+    /* bottom: 50%; */
+    height: 50px;
+    /* margin-bottom: 30px; */
+}
+.navbar a {
+    position: relative;
+    text-decoration: none;
+    margin: 0;
+    padding: 14px 20px;
+    bottom: 20px;
+    color: white;
+}
+.navbar a:hover {
+    cursor: pointer;
+    border: 2px solid whitesmoke;
+    border-radius: 20px;
+    font-weight: bolder;
+    background-color: whitesmoke;
+    color: black;
+    padding: 8px 20px;
+}
+.ap {
+    color: blue;
+    position: relative;
+    left: 40%;
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 1px;
+    border-radius: 20px;
+    text-shadow: 0px 0px 5px black;
+}
+.heading {
+    background-color: aqua;
+    position: relative;
+    /* bottom: 20px; */
+    padding: 140px;
+    padding-left: 150px;
+    width: 30%;
+    border-radius: 20px 0px 0px 20px;
+    margin-left: 10px;
+}
+.whash {
+    float: right;
+    width: 30%;
+    position: relative;
+    top: 50px;
+    right: 180px;
+    background-color: aqua;
+    /* padding-top: 8%;
+    padding-right: 200px; */
+    /* border: 2px solid black; */
+    border-radius: 30%;
+}
+.heading button {
+    padding: 14px 20px;
+    background-color: yellow;
+    position: relative;
+    left: 20%;
+}
+.heading a {
+    text-decoration: none;
+}
+.heading button:hover{
+    color: blue;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    font-weight: bolder;
+}
+.heading h4 {
+    color: rgba(194, 0, 253, 0.986);
+}
+.heading h1 {
+    color: whitesmoke;
+}
+.background {
+    /* background-color: gray; */
+    width: 90%;
+    height: 470px;
+    position: relative;
+    top: 10px;
+    left: 5%;
+}
+.layout {
+    width: 80%;
+    height: 400px;
+    position: relative;
+    left: 10%;
+    top: 35px;
+}
+.left {
+    float: left;
+    width: 40%;
+    position: relative;
+    top: 70px;
+    left: 100px;
+    bottom: 500px;
+    height: 300px;
+}
+.login label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.form {
+    float: right;
+    position: relative;
+    top: 10px;
+    bottom: 40%;
+    right: 180px;
+    padding: 50px;
+    padding-top: 10px;
+    padding-bottom: 100px;
+    width: 20%;
+    height: 300px;
+    background-color: lightgray;
+}
+.form h2 {
+    text-align: center;
+}
+.login input {
+    /* display: block;
+    font-weight: bold;
+    position: relative; */
+    padding: 8px;
+    border-radius: 20px;
+    width: 100%;
+    opacity: 0.7;
+    /* transition: border-color 0.3; */
+}
+.logbtn {
+    width: 100%;
+    padding: 10px 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-color: black;
+    color: whitesmoke;
+}
+.logbtn:hover {
+    background-color: yellow;
+    color: blue;
+    font-weight: bolder;
+}
+.loggoogle {
+    width: 100%;
+    padding: 10px 18px;
+    font-weight: bold;
+    border-radius: 20px;
+    /* background-color: rgba(128, 128, 128, 0.4); */
+    color: black;
+}
+
+.loggoogle img {
+    width: 20px;
+    vertical-align: bottom;
+    border-radius: 20px;
+}
+.washbg {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(blue , rgba(0, 204, 255, 0.815));
+    border:  2px solid black;
+    margin-top: 1px;
+    border-radius: 20px;
+}
+.washbg h1 {
+    float: left;
+    position: relative;
+    left: 20%;
+    top: 100px;
+    width: 30%;
+    font-size: xx-large;
+    font-weight: bolder;
+    color: whitesmoke;
+}
+.washbg p {
+    float: right;
+    position: relative;
+    right: 20%;
+    top: 110px;
+    width: 30%;
+    /* font-size: large; */
+    font-weight: bold;
+    color: whitesmoke;
+}
+.apdiv {
+    position: relative;
+    border:  2px solid black;
+    width: 45%;
+    height: 500px;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    left: 10%;
+    right: 10%;
+    bottom: 150px;
+    padding: 8% 15%; 
+}
+.f1 {
+    position: relative;
+    left: 20%;
+}
+.f1 label {
+    display: block;
+    font-weight: bolder;
+    margin-bottom: 10px;
+    font-size: large;
+}
+.f1 input {
+    position: relative;
+    left: 10%;
+    padding: 8px;
+    border-radius: 20px;
+    width: 40%;
+    opacity: 0.7;
+    text-transform: uppercase;
+    color: blue;
+    font-weight: bolder;
+}
+.apsubmit {
+    padding: 12px 20px;
+    font-weight: bold;
+    border-radius: 20px;
+    position: relative;
+    left: 32%;
+    margin-right: 50px;
+    background-color: lightgray;
+}
+.apsubmit:hover {
+    background-color: yellow;
+    color: blue;
+    font-weight: bolder;
+}
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+    /* border: 2px solid black; */
+}
+.flex>div {
+    background-color: whitesmoke;
+    margin: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    text-align: center;
+    width: 25%;
+    height: 250px;
+    position: relative;
+    left: 18px;
+    border-radius: 20px;
+}
+/* .flex>div:hover {
+    transform: translateY(-20px);
+} */
+.flex>div>img:hover {
+    /* rotate: 15deg; */
+    /* animation-name: img;
+    animation-duration: 0.8s ; */
+    /* animation-timing-function: ease-in; */
+    opacity: 1;
+    cursor: pointer;
+    animation-iteration-count: 1;
+    /* transform: translateY(-20px); */
+}
+.flex>div:hover {
+    transform: translateY(-20px);
+    background: transparent;
+}
+.fimage {
+    border-radius: 20px;
+    width: 90%;
+    height: 80%;
+}
+.fimage:hover {
+    /* transform: rotate(10deg); */
+    transition: 1.5s;
+    transform: translateY(-20px);
+    box-shadow: 0px 0px 10px black,0px 0px 50px black;
+}
+.fservices {
+    text-align: center;
+    padding: 5px;
+    margin: 0px 490px;
+    border-radius: 20px;
+    background-color: whitesmoke;
+    color: blue;
+    animation-name: span;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-in-out;
+    animation-direction:alternate;
+    animation-fill-mode: both;
+    opacity: 0;
+    position: relative;
+    animation-delay: 0.2s;
+}
+@keyframes span {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.fservices:hover {
+    background-color: black;
+}
+.fbackground {
+   background: linear-gradient(white,black);
+}
+.contact {
+    /* background-color: aqua; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    /* justify-content:space-between ; */
+    align-items: center;
+    margin: 0px;
+    padding: 20px;
+    width: 60%;
+    position: relative;
+    /* top: 20px; */
+    left: 250px; 
+    /* gap: 50px; */
+    row-gap: 20px;
+    column-gap: 40px;
+}
+.contact>div {
+    margin: 0px;
+    padding: 10px;
+    border: 2px solid black;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    /* background-color: rgb(0, 255, 255); */
+    background: linear-gradient(red , yellow);
+}
+.contact>div>.contact-image:hover {
+    opacity: 0.7;
+}
+.contact-image {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.contact>div>h2 {
+    border: 2px solid black;
+    background-color: white;
+    font-style: italic;
+    border-radius: 20px;
+    position: relative;
+    bottom: 270px;
+    color: blue;
+}
+.contact>div>h2:hover {
+    background-color: yellow;
+    color: blue;
+}
+/* .contact>div>h4,p {
+    color: blue;
+    position: relative;
+    bottom: 70px;
+    opacity: 1;
+} */
+.contact>div>h4 {
+    position: relative;
+    right: 10px;
+    bottom: 190px;
+    width: 220px;
+    padding-top: 60px;
+    padding-bottom: 10px;
+    /* padding-left: 20px; */
+    color: blue;
+    /* background-color: rgba(0, 0, 0,1); */
+    font-weight: bolder;
+    height: 150px;
+    justify-content: center;
+    opacity: 0;
+    font-size: x-large;
+}
+.contact>div>h4:hover {
+    opacity: 1;
+    background: linear-gradient(red , yellow);
+    color: black;
+    /* color: whitesmoke; */
+    transition: 0.8s;
+    transform: scaleX(70%);
+}
+.location {
+    width: 100%;
+    height: 500px;
+    background-image: url(image/car\ image\ background.jpg);
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-position: center;
+    /* justify-content: center; */
+    align-content: center;
+    text-align: center;
+    margin: 3px;
+    /* margin-top: 50px; */
+}
+.location h1,h5 {
+    color: black;
+    display: flex;
+    justify-content: center;
+    font-weight: bolder;
+    font-size: xx-large;
+    text-shadow: 0px 0px 5px white, 0px 0px 10px black;
+}
+.location-container {
+    display: flex;
+    /* align-items: stretch; */
+    /* background-color: rgba(255, 255, 255, 0.445); */
+    width: 80%;
+    justify-content: center;
+    position: relative;
+    left: 10%;
+    bottom: 70px;
+    padding: 15px;
+    /* border: 2px solid black;
+    width: fit-content; */
+}
+.location-container>div {
+    margin: 15px;
+    padding: 10px;
+    width: 50%;
+    height: 60px;
+    overflow: hidden;
+    background-color: rgba(245, 245, 245, 0.507);
+    text-align: center;
+    /* line-height: 75px; */
+    color: black;
+    /* flex-shrink: 10; */
+    border-radius: 20px;
+    cursor: pointer;
+    border: 2px solid white;
+}
+.location-container>div:hover {
+    transform: translateY(-40px);
+    /* transition: 1s; */
+    height: fit-content;
+    position: relative;
+    bottom: 100px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: white;
+    overflow: visible;
+    background-color: rgba(0, 0, 0, 0.562);
+    filter: drop-shadow( 0px 0px 5px black);
+    box-shadow: 0px 0px 10px white;
+}

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAR Services</title>
+    <link rel="icon" href="image/icon.webp">
+    <link rel="stylesheet" href="stylesheet.css">
+    <style>
+        .navbar {
+            position: fixed;
+            z-index: 1;
+            margin-top: 0px;
+        }
+    </style>
+</head>
+<body>
+    <div class="navbar">
+        <img src="image/logoimage1.jpg" alt="image">
+        <a href="home.html">Home</a>
+        <a href="">About</a>
+        <a href="service.html">Service</a>
+        <a href="Location.html">Location</a>
+        <a href="contact.html">Contact</a>
+        <a href="login.html">Login</a>
+        <a href="Appointment.html" class="ap">Appointment</a>
+    </div>
+    <div class="Appointment">
+        <div class="washbg">
+            <h1>Book your car wash Appointment</h1>
+            <p>Choosing Car Wash is a constant process in the life of every motorist. We try to give you only positive emotions. Entrust your car cleaning to our professionals.</p>
+        </div>
+        <div class="apdiv">
+            <form action="#" class="apform">
+                <h2>Appointment Details</h2>
+                <div class="f1">
+                    <label for="">Name :</label>
+                    <input type="text" placeholder="your NAME" required>
+                </div>
+                <br>
+                <div class="f1">
+                    <label for="">Phone Number :</label>
+                    <input type="number" placeholder="numbers" required>
+                </div>
+                <br>
+                <div class="f1">
+                    <label for="">Email Address :</label>
+                    <input type="email" placeholder="email id" required>
+                </div>
+                <br>
+                <div class="f1">
+                    <label for="">Appointment Date :</label>
+                    <input type="date" placeholder="dd-mm-yyyy" required>
+                </div>
+                <br>
+                <div class="f1">
+                    <label for="">Time :</label>
+                    <input type="time" placeholder="numbers" required>
+                </div>
+                <br><br>
+                <button type="submit" class="apsubmit" onclick="alert ('Appointment Submit')">Submit</button>
+                <button type="reset" class="apsubmit">Clear</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

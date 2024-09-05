@@ -1,0 +1,119 @@
+.head {
+    /* border: 1px solid black; */
+    position: relative;
+}
+body{
+    margin-left: 80px;
+    background: linear-gradient(120deg, white,rgb(255, 102, 0));
+}
+.head a {
+    /* border: 1px solid blue; */
+    text-align: center;
+    position: relative;
+    left: 20%;
+    bottom: 40px;
+    padding: 14px 20px;
+    text-decoration: none;
+    color: black;
+}
+.head a:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+    font-weight: bold;
+    text-decoration: underline;
+    text-decoration-color: orangered;
+    text-decoration-thickness: 2px;
+}
+.signup {
+    position: relative;
+    left: 45%;
+    bottom: 40px;
+    padding: 14px 20px;
+    border-radius: 50px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.signup:hover {
+    background-color: white;
+    color: blue;
+    font-weight: bolder;
+    font-size: 15px;
+    text-shadow: 2px 2px 5px blue;
+}
+.image {
+    height: 80px;
+    width:100px;
+    border-radius: 20px;
+    vertical-align: super;
+}
+.bg {
+    float: right;
+    width: 50%;
+    height: 500px;
+    border-radius: 10%;
+    background-image: url(image/bg3.avif);
+    /* background-position: center; */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.text {
+    float: left;
+    width: 40%;
+    height: 500px;
+    position: relative;
+    padding-left: 50px;
+}
+.body{
+    background-image: url(image/bg3.avif);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+}
+.text h1 {
+    font-weight: 1000px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    text-transform: capitalize;
+}
+.text h1 span {
+    color: darkgreen;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    
+}
+.text p {
+    font-size: large;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+.text button {
+    padding: 10px 20px;
+    position: relative;
+    left: 32%;
+    border-radius: 20px;
+    border-color: orangered;
+    background-color: orangered;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px black,5px 5px 50px black;
+    cursor: pointer;
+}
+
+/* .exampl {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    margin-left: 0px;
+    animation-delay: 2s;
+    animation-iteration-count: 2;
+}
+@keyframes example {
+        from {background-color: red;left: 0px;top: 0px;visibility: hidden;}
+        to {background-color: yellow;left: 200px;top: 0px;visibility: visible;}
+} */

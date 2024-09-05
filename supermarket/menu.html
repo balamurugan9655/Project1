@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: orange;
+        }
+        .menu {
+            /* border: 2px solid black; */
+            padding: 5%;
+            position: absolute;
+            /* visibility: hidden; */
+            top: 60%;
+            text-align: center;
+            left: 30%;
+            background-color: orange;
+            border-radius: 50px;
+            animation-name: div;
+            animation-duration: 5s;
+            /* animation-delay: 1s; */
+            animation-direction:alternate;
+            /* animation-iteration-count: 1; */
+            animation-fill-mode: forwards;
+            animation-timing-function: ease-in;
+        }
+        @keyframes div {
+            0% {
+                padding: 5%;
+                position: absolute;
+                top: 60%;
+                text-align: center;
+                left: 30%;
+                visibility: hidden;
+            }
+            25% {
+                position: absolute;
+                top: 50%;
+                visibility: hidden;
+            }
+            50% {
+                position: absolute;
+                top: 35%;
+                visibility: hidden;
+            }
+            75% {
+                position: absolute;
+                top: 20%;
+                visibility: hidden;
+            }
+            100% {
+                position: absolute;
+                top: 5%;
+                visibility: visible;
+            }
+        }
+    </style>
+</head>
+<body class="pagemenu">
+    <div class="menu">
+        <h1>heading</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, excepturi.</p>
+    </div>
+</body>
+</html>
